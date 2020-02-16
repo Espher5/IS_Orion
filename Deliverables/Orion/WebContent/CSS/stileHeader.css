@@ -1,0 +1,36 @@
+body {
+	background-color: 	#E0E0E0;
+}
+
+.btn {
+	margin: 5px;
+	padding: 5px;
+}
+
+.form-group {
+	margin: 0px 10px 0px 10px;
+}
+
+@webkit-keyframes zoom {
+	from {
+		-webkit-transform: scale(1, 1);
+	}
+	to {
+		-webkit-transform: scale(1.5, 1.5);
+	}
+}
+
+@keyframes zoom {
+	from {
+		transform: scale(1, 1);
+	}
+	to {
+		transform: scale(1.5, 1.5);
+	}
+}
+	
+.carousel-inner  .carousel-item > img {
+	-webkit-animation: zoom 20s;
+	animation: zoom 20s;
+}
+
